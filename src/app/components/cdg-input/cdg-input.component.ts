@@ -7,9 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CdgInputComponent implements OnInit {
 
-  @Input() type: string;
+  @Input() type: string = "text";
   @Input() label: string;
-  @Input() placeholder: string;
+  @Input() placeholder: string = "";
 
   constructor() { }
 
