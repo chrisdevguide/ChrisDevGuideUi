@@ -1,0 +1,22 @@
+p {
+  font-weight: 600;
+}
+
+.cdg-input {
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  transition: all 0.2s;
+  padding: 0.7rem;
+  margin-top: -0.2rem;
+}
+
+.cdg-input:hover,
+.cdg-input:active,
+.cdg-input:focus {
+  border-color: #3b7bf6;
+  outline: none !important;
+}
+
+.cdg-input:focus {
+  box-shadow: 0 0 0 0.1rem #3b7df67e;
+}
